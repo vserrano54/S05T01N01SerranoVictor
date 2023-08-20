@@ -16,7 +16,7 @@ USE comerciodb;
 	roles, usuarios, continentes, países
 
 
-4. Ingresar al programa: localhost:8080
+4. Ingresar al programa: localhost:9000
 	credenciales:
 	usuario: admin
 	password: 123
