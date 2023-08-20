@@ -1,0 +1,33 @@
+PASOS PARA EJECUTAR EL PROYECTO
+=================================
+
+1. Crear la base de datos db comerciodb
+-- Eliminar base de datos comerciodb si existe
+DROP DATABASE IF EXISTS comerciodb;
+-- crear Base de datos comerciodb
+CREATE DATABASE comerciodb;
+
+-- Establecer base de datos comerciodb
+USE comerciodb;
+
+2. Ejecutar el proyecto S05T01N01SerranoVictor
+
+3. Ejecutar el scipt de insercion de datos de:
+	roles, usuarios, continentes, países
+
+
+4. Ingresar al programa: localhost:8080
+	credenciales:
+	usuario: admin
+	password: 123
+
+
+Nota:
+se crean las tablas desde spring cuando se ejecuta el proyecto con esta
+instrucción: spring.datasource.schema=classpath:schema.sql
+y se debería insertar los datos iniciales en las tablas con esta instrucción:
+spring.datasource.data=classpath:data.sql
+pero no lo está realizando
+por eso hay que hacer la inserción ejecutando el script de forma manual.
+
+Adjunto imagenes del la ejecución del programa y script de base de datos e insercion de datos.
